@@ -1,3 +1,7 @@
-import './test.css';
+import './ui/tooltip'
+import Tooltip from './ui/tooltip'
 
-console.log("test");
+// create a tooltip
+const tooltip = new Tooltip(document.querySelector('.tooltip'));
+
+tooltip.init();
